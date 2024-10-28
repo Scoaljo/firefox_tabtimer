@@ -1,0 +1,18 @@
+.tab-timer-container {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .tab-timer-color-bar {
+    width: 4px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 2px;
+  }
+  
+  .tab-time {
+    font-weight: 500;
+  }

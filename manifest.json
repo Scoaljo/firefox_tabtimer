@@ -5,7 +5,8 @@
     "description": "Displays how long each tab has been open",
     "permissions": [
       "tabs",
-      "activeTab"
+      "activeTab",
+      "<all_urls>"
     ],
     "icons": {
       "48": "icons/icon.svg",

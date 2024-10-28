@@ -18,6 +18,13 @@ browser.tabs.onRemoved.addListener(tabId => {
   tabTimes.delete(tabId);
 });
 
+// Listen for tab updates (navigation/refresh)
+browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  if (changeInfo.status === 'complete') {
+    updateAllTabs();
+  }
+});
+
 // Update titles periodically
 setInterval(updateAllTabs, 60000); // every minute
 updateAllTabs(); // initial update

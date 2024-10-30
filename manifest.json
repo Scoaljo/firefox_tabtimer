@@ -1,22 +1,19 @@
 {
-    "manifest_version": 2,
-    "name": "TabTimer",
-    "version": "1.0",
-    "description": "Displays how long each tab has been open",
-    "permissions": [
-      "tabs",
-      "activeTab",
-      "<all_urls>"
-    ],
-    "icons": {
-      "48": "icons/icon.svg",
-      "96": "icons/icon.svg"
-    },
-    "browser_action": {
-      "default_icon": "icons/icon.svg",
-      "default_title": "TabTimer"
-    },
-    "background": {
-      "scripts": ["background.js"]
-    }
+  "manifest_version": 2,
+  "name": "TabTimer",
+  "version": "1.0",
+  "description": "Displays how long each tab has been open",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "<all_urls>"
+  ],
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
   }
+}

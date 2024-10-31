@@ -38,7 +38,7 @@ To run this extension locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/firefox_tabtimer.git
+git clone https://github.com/Scoaljo/firefox_tabtimer.git
 ```
 
 2. Open Firefox and navigate to `about:debugging`
